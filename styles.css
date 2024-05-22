@@ -1,0 +1,90 @@
+@import url(https://fonts.google.com/specimen/Manrope);
+
+*{
+    font-family: "Manrope", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    max-width: 1240px;
+    width: 100%;
+    height: 100vh;
+    background-color:  hsl(212, 23%, 69%);
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color:  hsl(214, 17%, 51%);
+}
+
+h5, h2{
+    color: hsl(217, 19%, 35%);
+}
+
+/*****************************************/
+
+.container{
+    display: flex;
+    background-color:  hsl(210, 46%, 95%);
+    width: 60%;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+/****************************************/
+
+.shift{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.first{
+    width: 100%;
+}
+
+.first>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+/****************************************/
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer>img{
+    background-color: hsl(212, 23%, 69%);
+    padding: 10px;
+    border-radius: 100%;
+}
+
+/*************************************/
+
+.michelle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.michelle>img{
+    border-radius: 100%;
+    width: 60px;
+}
+
+.jun>h5{
+    margin-bottom: 0;
+}
+.jun>p{
+    margin-top: 8px;
+}
